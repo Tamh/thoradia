@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="10.0.2.39"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
+    <description>
+qBittorrent (4.4.5) is an efficient feature complete C++ bittorrent implementation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- qBittorent version 4.4.5
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+</addons>
