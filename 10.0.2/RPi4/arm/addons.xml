@@ -28,4 +28,38 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.thoradia"
+       name="Thoradia Add-ons (mod by Tamh)"
+       version="10.0.2.39"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/tamh/thoradia/10.0.2/10.0.2/RPi4/arm/</datadir>
+    <info>https://raw.githubusercontent.com/tamh/thoradia/10.0.2/10.0.2/RPi4/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/tamh/thoradia/10.0.2/10.0.2/RPi4/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons (mod by Tamh): add-on repository</summary>
+    <description>
+Thoradia Add-ons (39) add-on repository, provides qBittorent.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Thoradia Add-ons version 39
+- Split add-on versions in corresponding git branches
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 </addons>
